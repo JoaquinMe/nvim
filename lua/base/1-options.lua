@@ -7,7 +7,7 @@
 vim.g.default_colorscheme = "tokyonight-night"
 
 -- Options --------------------------------------------------------------------
-vim.opt.breakindent = true -- Wrap indent to match  line start.
+vim.opt.breakindent = false -- Wrap indent to match  line start.
 vim.opt.clipboard = "unnamedplus" -- Connection to the system clipboard.
 vim.opt.cmdheight = 0 -- Hide command line unless needed.
 vim.opt.completeopt = { "menu", "menuone", "noselect" } -- Options for insert mode completion.
@@ -24,7 +24,7 @@ vim.opt.ignorecase = true -- Case insensitive searching.
 vim.opt.infercase = true -- Infer cases in keyword completion.
 
 vim.opt.laststatus = 3 -- Global statusline.
-vim.opt.linebreak = true -- Wrap lines at 'breakat'.
+vim.opt.linebreak = false -- Wrap lines at 'breakat'.
 vim.opt.number = true -- Show numberline.
 vim.opt.preserveindent = true -- Preserve indent structure as much as possible.
 vim.opt.pumheight = 10 -- Height of the pop up menu.
@@ -47,7 +47,7 @@ vim.opt.writebackup = false -- Disable making a backup before overwriting a file
 vim.opt.shada = "!,'1000,<50,s10,h" -- Remember the last 1000 opened files
 vim.opt.history = 1000 -- Number of commands to remember in a history table (per buffer).
 vim.opt.swapfile = false -- Ask what state to recover when opening a file that was not saved.
-vim.opt.wrap = true -- Disable wrapping of lines longer than the width of window.
+vim.opt.wrap = false -- Disable wrapping of lines longer than the width of window.
 vim.opt.colorcolumn = "80" -- PEP8 like character limit vertical bar.
 vim.opt.mousescroll = "ver:1,hor:0" -- Disables hozirontal scroll in neovim.
 vim.opt.guicursor = "n:blinkon200,i-ci-ve:ver25" -- Enable cursor blink.

@@ -714,4 +714,9 @@ return {
     }
   },
 
+--  {
+--  "/home/joaquin/Desktop/blast.nvim",
+--  end
+--  },
+
 } -- end of return

@@ -238,6 +238,12 @@ autocmd("BufWritePre", {
   end,
 })
 
+-- Cambiar cursor
+autocmd("VimLeave",{
+  pattern="*",
+  command = "set guicursor= | call chansend(v:stderr, \"\\x1b[ q\")",
+})
+
 -- ## COMMANDS --------------------------------------------------------------
 
 -- 10. Testing commands
